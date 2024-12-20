@@ -6,7 +6,7 @@ function Form(props) {
   const handleSubmit = (e) => {
     e.preventDefault();
     props.handleSearch(searchText);
-    setSearchText('');
+    setSearchText(''); 
   };
 
   return (
